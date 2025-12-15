@@ -1,0 +1,212 @@
+*{
+    list-style-type: none;
+
+}
+body
+{
+  font-family: "Beiruti", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.ul-menu
+{
+    background-color: #333;
+    color:#ffffff ;
+    overflow: hidden;
+    text-align: center;
+}
+.li-menu
+{
+    float: right;
+}
+.a-menu
+{
+    text-decoration: none ;
+    color:#ffffff ;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+
+}
+.li-menu a:hover
+{
+    background-color: #000;
+}
+.title-menu
+{
+    font-size: 40px; 
+    display:inline ;
+}
+.column
+{
+    width: 50%;
+    float: left;
+    text-align: center ;
+}
+.profile
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.social
+{
+    width: 35px;
+   padding: 5px;
+
+}
+.left
+{  
+     width:20%;
+    float: left;
+}
+.right
+{
+    float:right;
+    width:80%;
+}
+.row
+{
+    padding: 10px;
+}
+.row::after
+{
+   display: table;
+    clear: both;
+    content :"";
+}  
+.main-bar
+{
+    background-color: gray;
+    display: block;
+    height: 25px;
+} 
+.main-bar span
+{
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+.cpp
+{
+    width: 90%;
+    animation: cpp 2s;
+}
+.datastructure
+{
+    width: 50%;
+       animation: datastructure 2s;
+}
+.css
+{
+    width: 65%;
+    animation: css 2s;
+
+}
+.sql
+{
+    width: 75%;
+     animation: sql 2s;
+
+}
+.linux 
+{
+    width:35%;
+           animation: linux 2s;
+
+}
+.aws
+{
+   width:25%;
+           animation: aws 2s;
+
+}
+@keyframes cpp
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 100%;
+    }
+}
+@keyframes datastructure
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 50%;
+    }
+}
+@keyframes css
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 65%;
+    }
+}
+@keyframes sql
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 70%;
+    }
+}
+@keyframes linux
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 35%;
+    }
+}
+@keyframes aws
+{
+    0%
+    {
+        width: 0%;
+    }
+    100%
+    {
+        width: 20%;
+    }
+}
+.footer
+{
+
+     width: 100%;
+     height: 40px;
+     background-color: #333;
+     color:white;
+     text-align: center;
+}
+.project
+{
+    width: 500px;
+    float: right;
+}
+.project img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
